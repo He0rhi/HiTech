@@ -1,0 +1,90 @@
+﻿<Window x:Class="HiTech.UserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HiTech"
+        mc:Ignorable="d"
+        Title="UserWindow" Height="450" Width="800">
+    <ScrollViewer  HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition MaxHeight="60px"></RowDefinition>
+                <RowDefinition MaxHeight="70px"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="45px"></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Border Grid.Row="1" Grid.Column="0" MinWidth="520" VerticalAlignment="Top" MinHeight="40" MaxHeight="70" Margin="10">
+
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="16*"/>
+                        <ColumnDefinition Width="231*"/>
+
+                        <ColumnDefinition Width="120"/>
+
+                    </Grid.ColumnDefinitions>
+
+
+                    <Label Grid.Column="0"   HorizontalAlignment="Left"  VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="0,8"/>
+                    <StackPanel Orientation="Horizontal" Margin="80 0 0 0">
+                        <Button Content="Смартфоны"    x:Name="smart" Grid.Column="1" Margin="0 0 0 0"  FontSize="10" Padding="5"  HorizontalAlignment="Left"  VerticalAlignment="Center" BorderBrush="Black" Click="smart_Click">
+                        </Button>
+                        <Button Content="Браслеты"  x:Name="brasl" Grid.Column="1" Margin="10 0 0 0"   FontSize="10" Padding="5"  HorizontalAlignment="Left"  VerticalAlignment="Center" BorderBrush="Black" Click="brasl_Click"/>
+                        <Button Content="Часы"   x:Name="clocks" Grid.Column="1" Margin="10 0 0 0"  FontSize="10" Padding="5"  HorizontalAlignment="Left"  VerticalAlignment="Center" BorderBrush="Black" Click="clocks_Click"  />
+                        <Button Content="Планшеты"    x:Name="laptop" Grid.Column="1" Margin="10 0 0 0"   FontSize="10" Padding="5"  HorizontalAlignment="Left"  VerticalAlignment="Center" BorderBrush="Black" Click="laptop_Click"  />
+                        <TextBox  Grid.ColumnSpan="2" Name="search" BorderThickness="1.5" Width="100"  HorizontalAlignment="Left" Margin="30 0 0 0"  TextWrapping="Wrap"  VerticalAlignment="Center"/>
+                        <Button Content="Поиск" x:Name="search_button"    Margin="5 0 0 0" FontSize="10" Padding="5" Height="30" Click="search_button_Click"></Button>
+
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <Grid Grid.Row="0" Background="Black">
+                <Label VerticalAlignment="Center"  Foreground="White" Margin="10 0 0 0" FontWeight="Black" FontSize="20px"  HorizontalAlignment="Left" MinWidth="85px">HITECH</Label>
+                <Button Content="Выйти" Background="White" Width="50px" Height="30px" HorizontalAlignment="Right" Margin="0 0 10 0" Click="Button_Click_1"></Button>
+
+                <Button Width="100" Height="30" Content="Корзина" x:Name="basketbutt" Click="basketbutt_Click" Background="White" BorderThickness="0"></Button></Grid>
+            <Grid Grid.Row="2" Background="White" x:Name="products1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition ></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+
+
+                </Grid.RowDefinitions>
+
+            
+
+            </Grid>
+            <Grid Grid.Row="3" Background="White" x:Name="products2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+               
+
+                
+              
+
+            </Grid>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="4" Height="20px">
+                <Button Content="Назад" HorizontalAlignment="Center" Margin="0 0 10 0" Width="50px" Click="Button_Click"></Button>
+                <Button Content="Вперед"  HorizontalAlignment="Center" Margin="10 0 0 0"  Width="50px" Click="Button_Click_2"></Button>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</Window>

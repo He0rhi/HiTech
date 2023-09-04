@@ -1,0 +1,41 @@
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\HiTech.exe
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\HiTech.deps.json
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\HiTech.runtimeconfig.json
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\HiTech.runtimeconfig.dev.json
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\HiTech.dll
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\HiTech.pdb
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\HiTech.csproj.AssemblyReference.cache
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\App.g.cs
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\HiTech_MarkupCompile.cache
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\HiTech_MarkupCompile.lref
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\HiTech.g.resources
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\HiTech.GeneratedMSBuildEditorConfig.editorconfig
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\HiTech.AssemblyInfoInputs.cache
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\HiTech.AssemblyInfo.cs
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\HiTech.csproj.CoreCompileInputs.cache
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\HiTech.csproj.CopyComplete
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\HiTech.dll
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\HiTech.pdb
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\HiTech.genruntimeconfig.cache
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\UserWindow.g.cs
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\UserWindow.baml
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\Administrator.g.cs
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\Administrator.baml
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\UserBasket.g.cs
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\UserBasket.baml
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\commentaries.g.cs
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\commentaries.baml
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\UserWindow - Копировать.g.cs
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\UserWindow - Копировать.baml
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\Administrator - Копировать.g.cs
+D:\MYDOCUMENTS\BGTU\DB_KURS\app\HiTech\obj\Debug\netcoreapp3.1\Administrator - Копировать.baml

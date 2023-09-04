@@ -1,0 +1,96 @@
+﻿<Window x:Class="HiTech.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HiTech"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="450" Width="800">
+    <ScrollViewer  HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition MaxHeight="60px"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+
+            <Grid Grid.Row="0" Background="Black">
+                    <Label VerticalAlignment="Center"  Foreground="White" Margin="10 0 0 0" FontWeight="Black" FontSize="20px"  HorizontalAlignment="Left" MinWidth="85px">HITECH</Label>
+            </Grid>
+            <Grid Grid.Row="1" Background="White">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition MaxHeight="100px"></RowDefinition>
+                    <RowDefinition ></RowDefinition>
+
+                </Grid.RowDefinitions>
+                
+                    <Grid Grid.Row="0" Grid.Column="0">
+                        <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20px">РЕГИСТРАЦИЯ</Label>
+                    <Button Width="100px" Height="20px" Content="Войти как гость" VerticalAlignment="Bottom" Margin="0 0 0 5" Click="Button_Click_1"></Button>
+                    </Grid>
+                    
+                <Grid Grid.Row="0" Grid.Column="1">
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20px">ВХОД</Label>
+                    
+                </Grid>
+                  
+                <Grid Grid.Row="1" Grid.Column="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        
+
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" VerticalAlignment="Center" Grid.Column="0" HorizontalAlignment="Center">Имя</Label>
+                    <TextBox x:Name="name_arg" Grid.Row="0" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="150px"  MaxWidth="150px" Height="20px"></TextBox>
+                    <Label Grid.Row="1" VerticalAlignment="Center" Grid.Column="0" HorizontalAlignment="Center">Почта</Label>
+                    <TextBox x:Name="mail_arg" Grid.Row="1" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="150px"  MaxWidth="150px" Height="20px"></TextBox>
+                    <Label Grid.Row="2" VerticalAlignment="Center" Grid.Column="0" HorizontalAlignment="Center">Пароль</Label>
+                    <TextBox x:Name="password_arg" Grid.Row="2" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="150px"  MaxWidth="150px" Height="20px"></TextBox>
+                    <Label Grid.Row="3" VerticalAlignment="Center" Grid.Column="0" HorizontalAlignment="Center">Дата Рождения</Label>
+                    <Grid Grid.Row="3" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center"  >
+                        <Calendar x:Name="calendar1"  SelectedDatesChanged="calendar_SelectedDatesChanged" FirstDayOfWeek="Monday">
+                        </Calendar>
+                    </Grid>
+                    <Button VerticalAlignment="Bottom" Height="30px" Content="Регистрация" Grid.Row="4" Grid.ColumnSpan="2" x:Name="Registration" Click="Registration_Click"></Button>
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        
+
+                    </Grid.RowDefinitions>
+                   
+                    <Label Grid.Row="0" VerticalAlignment="Center" Grid.Column="0" HorizontalAlignment="Center">Почта</Label>
+                    <TextBox x:Name="signname" Grid.Row="0" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="150px"  MaxWidth="150px" Height="20px"></TextBox>
+                    <Label Grid.Row="1" VerticalAlignment="Center" Grid.Column="0" HorizontalAlignment="Center">Пароль</Label>
+                    <TextBox x:Name="signpassword" Grid.Row="1" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center" MinWidth="150px"  MaxWidth="150px" Height="20px"></TextBox>
+
+
+                    <Button x:Name="SIGNIN" VerticalAlignment="Bottom" Content="Войти" Height="30px" Grid.Row="4" Grid.ColumnSpan="2" Click="SIGNIN_Click" ></Button>
+                </Grid>
+            </Grid>
+
+        </Grid>
+    </ScrollViewer>
+</Window>

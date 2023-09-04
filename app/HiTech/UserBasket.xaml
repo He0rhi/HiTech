@@ -1,0 +1,68 @@
+﻿<Window x:Class="HiTech.UserBasket"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HiTech"
+        mc:Ignorable="d"
+        Title="UserBasket" MinHeight="450" Width="800">
+    <ScrollViewer  HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden">
+
+        <Grid>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition MaxHeight="60px"></RowDefinition>
+                <RowDefinition MinHeight="250"></RowDefinition>
+                <RowDefinition  MinHeight="250"></RowDefinition>
+                <RowDefinition Height="45px"></RowDefinition>
+                <RowDefinition Height="100px"></RowDefinition>
+                <RowDefinition MinHeight="10px"></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            <Grid Grid.Row="0" Background="Black">
+                <Button Width="100" Height="30" Content="На главную" x:Name="tomain" Background="White" BorderThickness="0" Click="tomain_Click"></Button>
+                <Label VerticalAlignment="Center"  Foreground="White" Margin="10 0 0 0" FontWeight="Black" FontSize="20px"  HorizontalAlignment="Left" MinWidth="85px">HITECH</Label>
+            </Grid>
+            
+            <Grid Grid.Row="1" Background="White" x:Name="products1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition ></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+
+
+                </Grid.RowDefinitions>
+
+
+
+            </Grid>
+            <Grid Grid.Row="2" Background="White" x:Name="products2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+
+
+
+
+
+            </Grid>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="3" Height="20px">
+                <Button Content="Очистить"  HorizontalAlignment="Center"  Width="60px" x:Name="clearbacket" Click="clearbacket_Click"></Button>
+
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Grid.Row="4">
+                <TextBox Width="200px" Height="80px" x:Name="comment" HorizontalAlignment="Center" Background="#EFEFEF" VerticalAlignment="Center" BorderBrush="Black" BorderThickness="0.5px"></TextBox>
+            </StackPanel>
+            <Grid x:Name="gridforcomments" Visibility="Hidden" Width="400" Grid.Row="7" Height="200"></Grid>
+        </Grid>
+    </ScrollViewer>
+</Window>
